@@ -3,7 +3,6 @@
 
 int main(void)
 {
-	//kokoko
 
 	return 0;
 
