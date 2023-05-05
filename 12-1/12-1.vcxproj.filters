@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="10 test2.c">
+    <ClCompile Include="12-2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
