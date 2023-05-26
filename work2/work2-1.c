@@ -22,10 +22,10 @@ int main(void)
 		exit(-ENOMEM);
 	}
 
-	fp = fopen("student.dat", "a+");
+	fp = fopen("student.dat", "r+");
 	if (fp == NULL)
 	{
-		printf("파일을 열지 못했습니다.\n");
+		printf("파일이 존재하지 않습니다.\n");
 		return 1;
 	}
 
@@ -46,8 +46,6 @@ int main(void)
 		}
 		putchar(ch);
 	}
-
-
 
 	printf("\n");
 	for (size_t i = 0; i < 5; i++)
