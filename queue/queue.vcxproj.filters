@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="day3.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="singly_linked_list.c">
+    <ClCompile Include="queue.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
